@@ -8,6 +8,15 @@ import { setLang } from '../features/jobs/JobsSlice';
 import { setTools } from '../features/jobs/JobsSlice';
 import { useEffect } from 'react';
 import { v4 as uuid } from 'uuid';
+import photosnap from '../assets/imgs/photosnap.svg';
+import manage from '../src/assets/imgs/manage.svg';
+import acount from '../src/assets/imgs/account.svg';
+import loopStudios from '../src/assets/imgs/loop-studios.svg';
+import faceit from '../src/assets/imgs/faceit.svg';
+import shortly from '../src/assets/imgs/shortly.svg';
+import insure from '../src/assets/imgs/insure.svg';
+import eyecam from '../src/assets/imgs/eyecam-co.svg';
+import airFilter from '../src/assets/imgs/the-air-filter-company.svg';
 
 const JobsList = () => {
 
