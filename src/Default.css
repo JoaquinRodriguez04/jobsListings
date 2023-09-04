@@ -1,0 +1,29 @@
+/* seteando los estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilando la etiqueta a */
+a{
+    text-decoration: none;
+}
+
+/* estilando la etiqueta li */
+li{
+    list-style: none;
+}
+
+/* estilando el button y el input */
+:is(button, input){
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+/* estilando el textarea */
+textarea{
+    resize: both;
+}
